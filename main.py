@@ -102,7 +102,7 @@ def calculate_tax(income):
         return income * 0.25 = '${:,.2f}'.format(tax)    
     elif income <= 100000:
         return income * 0.30 = '${:,.2f}'.format(tax)
-    else
+    else:
         return income * 0.35 = '${:,.2f}'.format(tax)
 
 
@@ -128,6 +128,6 @@ def matrix_sum(a_matrix):
     """
     # Write your code here
     matrix_sum = 0
-    For list in a_matrix
+    For list in a_matrix:
         matrix_sum = sum(list)
         
